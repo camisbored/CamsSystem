@@ -51,6 +51,12 @@ It contains the following features-
 For my personal implementation, I moved the LCD to the other side, electrical taped it in place, and taped the
 wires so they everything will stay in place.
 
+Build/deployment- As with all arduino apps, this can be built and deployed directly from the Arduino IDE.
+It should be as simple as plug and compile/upload.
+
+I considered breaking into multiple files/structuring, but the Arduino IDE seemed to dislike that, so I left 
+as is in single source file.
+
 Questions and inquries can be sent to camerongrande95@gmail.com
  
     
