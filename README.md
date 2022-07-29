@@ -1,12 +1,16 @@
 # CamsSystem
 An Arduino system supporting multiple applications, graphics, and sound.
 
-![frame8](https://user-images.githubusercontent.com/81730723/181781933-325b76be-35af-4dd7-b4b7-4b84ec5b4980.PNG)
+![welcome](https://user-images.githubusercontent.com/81730723/181783084-5a272ac2-f23e-4515-ad79-60d839e59512.PNG)
+
 
 The following is the source code for an Arduino system containing a 2x16 LCD, joystick, and active buzzer.
 My implementation was able to do this with a single Arduino MEGA 2560 board, not requiring a breadboard.
 The purpose of this project was to develop a I/O Application based system with limited hardware and resources.
 It contains the following features-
+
+![menu](https://user-images.githubusercontent.com/81730723/181783176-90a53a57-f270-42bf-9f6c-6f1f606aadba.PNG)
+
 
 1. A welcome message displayed on LCD upon initial load.
 2. A menu that can be navigated using the joystick. (Up and down to change applications, click to select)
@@ -20,6 +24,9 @@ It contains the following features-
       4. A game where you jump and duck to avoid arrows, keeping track of high score on persitent storage.
       You can return to menu from all apps by clicking in button.
  5. Custom pixel art implementation that can be used inside of the apps.
+ 
+ ![game](https://user-images.githubusercontent.com/81730723/181783121-781d492e-6d3c-4652-bee0-2772ea945c06.PNG)
+
       
  Hardware Implementation-
  As stated, I was able to have this all on a single Arduino Mega board without using a breadboard. To work, the
